@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Map</title>
+</head>
+
+<body>
+    <h1>Interactive India Map</h1>
+    <p>Click on a region to learn more about it:</p>
+
+    <img src="India States Map and Outline.jpg" alt="World Map" usemap="#worldmap" width="400">
+
+    <map name="worldmap">
+        <area shape="rect" coords="80,10,160,80"
+            href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)" alt="Jammu and Kashmir"
+            target="_blank">
+        <area shape="rect" coords="154,150,209,198" href="https://en.wikipedia.org/wiki/Uttar_Pradesh"
+            alt="Uttar Pradesh" target="_blank">
+        <area shape="circle" coords="148,420,20" href="https://en.wikipedia.org/wiki/Tamil_Nadu" alt="Tamil Nadu"
+            target="_blank">
+        <area shape="circle" coords="53,236,20" href="https://en.wikipedia.org/wiki/Gujarat" alt="Gujarat"
+            target="_blank">
+    </map>
+
+
+    <script>
+        function findCoordinates(event) {
+            const x = event.clientX;
+            const y = event.clientY;
+
+            console.log(x, y);
+        }
+
+        document.addEventListener('click', findCoordinates);
+    </script>
+</body>
+
+</html>
