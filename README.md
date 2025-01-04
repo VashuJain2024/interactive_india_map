@@ -16,5 +16,5 @@ This project features an interactive image map of India. It allows users to clic
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/interactive-india-map.git
-   cd interactive-india-map
+   git clone https://github.com/VashuJain2024/interactive_india_map.git
+   cd interactive_india_map
