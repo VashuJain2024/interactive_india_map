@@ -21,5 +21,5 @@ This project features an interactive image map of India. It allows users to clic
 
 ---
 
-## Output
+## Output 📤
 ![image](https://github.com/user-attachments/assets/dbef17ff-9d91-4ea2-a7d8-bc637aad00f4)
